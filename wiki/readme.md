@@ -3,6 +3,7 @@
 An explanation of this project and the scripts within it:
 * tasks.csv: Contains a list of tasks following the taskman format
   * This list has been shortened significantly for public display
+  * Credit goes to the Taskman community for making all tasks accessible via their API
 * csvTasks_to_wml.py: Takes the info from the CSV file and converts each entry into a new file, pre-formatted using the appropriate WML templates
 * createRedirects.py: Serves the same purpose as "csvTasks_to_wml.py", but creates wiki redirects for each task's ID
 * create_filelist.bat: Iterates through the files created by the aforementioned Python-scripts, and adds their names to a single text file
